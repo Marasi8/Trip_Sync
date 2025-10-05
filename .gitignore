@@ -1,0 +1,50 @@
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+/.phpunit.cache/
+###< phpunit/phpunit ###
+
+###> symfony/asset-mapper ###
+/public/assets/
+/assets/vendor/
+###< symfony/asset-mapper ###
+
+# Documentación generada automáticamente
+/output/          # Salida por defecto de phpDocumentor
+/docs/output/     # Si generas doc automática dentro de docs/
+docs/output/
+
+# Archivos de sistema y editores
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Archivos de logs
+*.log
+
+# Directorio de Composer si existe
+/composer.phar
+
+# Node.js 
+/node_modules/
+yarn.lock
+package-lock.json
+
+# Archivos de configuración de IDE
+/.idea/
+/.vscode/
+
+# Documentación generada, en principio se ignora la carpeta docs completa se subira cuando este completa
+/docs
